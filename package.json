@@ -4,6 +4,8 @@
   "private": true,
   "homepage": "https://andy8052.github.com/my-website/",
   "dependencies": {
+    "@material-ui/core": "^1.5.1",
+    "@material-ui/icons": "^2.0.3",
     "gh-pages": "^1.2.0",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
