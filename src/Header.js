@@ -1,13 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import Header from './Header';
-import AboutMe from './AboutMe';
-
-const Main = styled.div`
-  height: 100%;
-  padding: 0;
-  margin: 0;
+const HeaderInfo = styled.div`
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -16,19 +10,18 @@ const Main = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  font-family: 'Space Mono', monospace;
 `
 
-class App extends React.Component {
+class Header extends React.Component {
 
   render() {
     return (
-      <Main>
-          <Header/>
-          <AboutMe/>
-      </Main>
+      <HeaderInfo>
+          <h2>Andy Chorlian</h2>
+          <h4>Full Stack Solidity Dev</h4>
+      </HeaderInfo>
     );
   }
 }
 
-export default App
+export default Header
