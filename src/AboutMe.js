@@ -66,7 +66,7 @@ class AboutMe extends React.Component {
         </Split>
         <Split>
           <h3>About Me</h3>
-          <p>I am a computer nerd and blockchain enthusiast. I graduated with a decree in Computer Engineering in 2016 from Villanova (go cats!).</p>
+          <p>I am a computer nerd and blockchain enthusiast. I graduated with a degree in Computer Engineering in 2016 from Villanova (go cats!).</p>
           <p>Over the last few years, I have taken a deep dive into blockchain and especially into Ethereum and Solidity development. I am passionate about decentralization and really excited about everything the space has to offer.</p>
           <p>
             I love sports and video games. In another life, I would love to work as a stats person in the NBA. I recently wrote a piece about&nbsp;

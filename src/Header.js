@@ -18,7 +18,7 @@ class Header extends React.Component {
     return (
       <HeaderInfo>
           <h2>Andy Chorlian</h2>
-          <h4>Full Stack Solidity Dev</h4>
+          <h4>Blockchain Engineer @ <a href="https://makerdao.com/en/" target="_blank">MakerDAO</a></h4>
           <h5><a href={process.env.PUBLIC_URL+"/resume.pdf"} target="_blank">Resume</a></h5>
       </HeaderInfo>
     );
