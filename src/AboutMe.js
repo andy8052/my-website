@@ -2,7 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 
 const HeaderInfo = styled.div`
-  width:90%;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -10,7 +9,7 @@ const HeaderInfo = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: row;
+  flex-direction: column;
 `
 const Split = styled.div`
   width:80%;
@@ -26,10 +25,11 @@ const Split = styled.div`
 
 class AboutMe extends React.Component {
   render() {
-    console.log("url:" + process.env.PUBLIC_URL)
     return (
       <HeaderInfo>
         <Split>
+          <h2>👋 Hi I'm Andy</h2>
+          <h4>I'm a Smart Contracts Engineer @ <a href="https://makerdao.com/en/" target="_blank" rel="noopener noreferrer">MakerDAO</a></h4>
           <p>----------</p>
           <p>I spend most my time thinking about blockchain, the NBA, video games and streetwear.</p>
           <p>I am learning more about cryptography, go and data analytics.</p>
