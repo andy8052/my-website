@@ -42,7 +42,7 @@ class AboutMe extends React.Component {
           <p>The best way to reach me is on <a href="https://twitter.com/andy8052" target="_blank" rel="noopener noreferrer">Twitter</a>.</p>
           <p>Otherwise email me at andychorlian(at)gmail(dot)com.</p>
           <p>Here is my <a href={process.env.PUBLIC_URL+"/resume.pdf"} target="_blank" rel="noopener noreferrer">Resume</a>.</p>
-          </Split>
+        </Split>
       </HeaderInfo>
     );
   }
