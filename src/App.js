@@ -1,14 +1,7 @@
 import React from 'react';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
 import styled from 'styled-components';
 
 import AboutMe from './AboutMe';
-import TV from './TV';
 
 const Main = styled.div`
   height: 100%;
@@ -29,19 +22,9 @@ class App extends React.Component {
 
   render() {
     return (
-      <Router>
         <Main>
-          <Switch>
-            <Route path="/tv">
-              {/* <TV/> */}
-            </Route>
-            <Route path="/">
-              <AboutMe/>
-              <TV/>
-            </Route>
-          </Switch>
+          <AboutMe/>
         </Main>
-      </Router>
     );
   }
 }

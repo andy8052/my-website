@@ -9,17 +9,14 @@ const HeaderInfo = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
 `
 const Split = styled.div`
-  width:80%;
+  width:90%;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
 `
 
@@ -31,17 +28,17 @@ class AboutMe extends React.Component {
           <h2>👋 Hi I'm Andy</h2>
           <h4>I'm a Smart Contracts Engineer @ <a href="https://makerdao.com/en/" target="_blank" rel="noopener noreferrer">MakerDAO</a></h4>
           <p>----------</p>
-          <p>I spend most my time thinking about blockchain, the NBA, video games and streetwear.</p>
-          <p>I am learning more about cryptography, go and data analytics.</p>
+          <p>I spend most my time thinking about DeFi, the NBA, video games and streetwear</p>
+          <p>I dabble in Daily Fantasy Basketball using a model that I made</p>
+          <p>I play <a href="https://na.leagueoflegends.com/en/featured/events/teamfight-tactics" target="_blank" rel="noopener noreferrer">Teamfight Tactics</a> competitively with my current peak at rank 20 NA</p>
           <p>----------</p>
-          <p>I do full stack development. Currently I am focused on smart contracts, formal verification and tooling.</p>
+          <p>I do full stack development</p>
+          <p>Currently I am focused on smart contracts</p>
+          <p>Most recently I made <a href="https://syusd.cash/" target="_blank" rel="noopener noreferrer">syUSD.cash</a></p>
           <p>----------</p>
-          <p>I am always interested in talking about NBA stats. In my free time I dabble in Daily Fantasy Basketball and have my own model for this.</p>
-          <p>I play <a href="https://na.leagueoflegends.com/en/featured/events/teamfight-tactics" target="_blank" rel="noopener noreferrer">Teamfight Tactics</a> competitively with my current peak at rank 50.</p>
-          <p>----------</p>
-          <p>The best way to reach me is on <a href="https://twitter.com/andy8052" target="_blank" rel="noopener noreferrer">Twitter</a>.</p>
-          <p>Otherwise email me at andychorlian(at)gmail(dot)com.</p>
-          <p>Here is my <a href={process.env.PUBLIC_URL+"/resume.pdf"} target="_blank" rel="noopener noreferrer">Resume</a>.</p>
+          <p>The best way to reach me is on <a href="https://twitter.com/andy8052" target="_blank" rel="noopener noreferrer">Twitter</a></p>
+          <p>See my code on <a href="https://github.com/andy8052" target="_blank" rel="noopener noreferrer">Github</a></p>
+          <p>Otherwise email me at andy8052(at)protonmail(dot)com</p>
         </Split>
       </HeaderInfo>
     );
